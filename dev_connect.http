@@ -1,2 +1,12 @@
 ### Get request
 GET http://localhost:5000/api/profile
+
+### Post (registeration)
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+    "name": "Rizwaner",
+    "email": "asdfadsfaf@gmail.com",
+    "password": "12345125"
+}
