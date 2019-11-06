@@ -6,7 +6,11 @@ POST http://localhost:5000/api/users
 Content-Type: application/json
 
 {
-    "name": "Rizwaner",
-    "email": "asdfadsfaf@gmail.com",
+    "name": "Rizwaner2",
+    "email": "asdfadsfaf3@gmail.com",
     "password": "12345125"
 }
+
+### Get (auth) request
+GET http://localhost:5000/api/auth
+x-Authorization:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWRjMjgzY2ExMWFhZDE2ZjIwODU4ZDNlIn0sImlhdCI6MTU3MzAyODgxMSwiZXhwIjoxNTczMzg4ODExfQ.kdNaL8Ga-iYI6eoqnfumi1s0839SmCRIPlbmWAfuQ5Q
